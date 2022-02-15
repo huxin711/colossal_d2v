@@ -1,0 +1,2 @@
+colossalai
+-e git+ssh://git@github.com/hpcaitech/ColossalAI.git@7d15ec7fe20b07180f5dc3f4b580e2cba37c5b9e#egg=colossalai
