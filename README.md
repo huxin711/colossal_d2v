@@ -18,7 +18,7 @@ pip install .
 
 ## How to run
 ```
-DATA=/path/to/data/ python -m torch.distributed.launch --nproc_per_node=nproc_per_node
+$ DATA=/path/to/data/ python -m torch.distributed.launch --nproc_per_node=nproc_per_node
                                                        --master_addr MASTER_ADDR
                                                        --master_port MASTER_PORT
                                                        train_engine.py
