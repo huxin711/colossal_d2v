@@ -3,14 +3,12 @@ import colossalai
 from colossalai.utils import get_dataloader
 from colossalai.core import global_context as gpc
 from colossalai.logging import get_dist_logger
-from colossalai.nn.lr_scheduler import LinearWarmupLR, CosineAnnealingWarmupLR
-import colossalai.nn.optimizer.fused_adam as colossalai_adam
+from colossalai.nn.lr_scheduler import CosineAnnealingWarmupLR
 from model_zoo.data2vec_vision.D2VModel_c import d2v_small_patch16_224
-from data import build_beit_pretraining_dataset
+from utils.data import build_beit_pretraining_dataset
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
-import tqdm
 
 DATASET_PATH = str(os.environ['DATA'])  # The directory of your dataset
 

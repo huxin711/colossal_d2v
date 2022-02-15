@@ -1,15 +1,11 @@
 import torch
 
-from torchvision import datasets, transforms
+from torchvision import transforms
 
 from timm.data.constants import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD
-from transforms import RandomResizedCropAndInterpolationWithTwoPic
-from timm.data import create_transform
 
-import os
-
-from masking_generator import MaskingGenerator
-from dataset_folder import ImageFolder
+from utils.masking_generator import MaskingGenerator
+from utils.dataset_folder import ImageFolder
 
 input_size=224
 num_mask_patches=75
