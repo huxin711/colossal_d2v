@@ -1,10 +1,5 @@
-# colossal_d2v
-Reproduction of [data2vec_vision model](https://ai.facebook.com/research/data2vec-a-general-framework-for-self-supervised-learning-in-speech-vision-and-language) with colossal-ai
-
-
-
 ## Background
-This project is the reproduction of data2vec_vision model (http://www.baidu.com) with colossal-ai version.
+This project is the reproduction of [data2vec_vision model](https://ai.facebook.com/research/data2vec-a-general-framework-for-self-supervised-learning-in-speech-vision-and-language) with [ColossalAI](https://github.com/hpcaitech/ColossalAI) tool.
 
 ## Envirionment setup
 ```
